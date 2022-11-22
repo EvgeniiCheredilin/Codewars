@@ -1,4 +1,6 @@
 def spin_words(sentence):
+    """Takes sentence string
+    Returns sentence string with all five or more letter words reversed."""
     my_sentence = sentence
     my_list = my_sentence.split()
     for i in my_list:

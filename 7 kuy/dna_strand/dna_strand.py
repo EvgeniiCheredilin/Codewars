@@ -1,4 +1,6 @@
 def dna_strand(dna):
+    """Takes string of DNA
+    Returns complementary side string."""
     my_dna = ""
     for i in dna:
         if i == "A":
